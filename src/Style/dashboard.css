@@ -1,0 +1,37 @@
+.box-wrapper {
+    border: 2px solid white;
+    width : 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    color: white;
+    position: relative;
+
+
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: black;
+    min-height: 100vh;
+    padding:20px;
+}
+
+.close {
+    color: red;
+    position: absolute;
+    top: 2px;
+    right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+    color: blanchedalmond;
+    transform: translate(41px,-740px);
+}
